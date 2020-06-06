@@ -1,0 +1,149 @@
+.navbar{
+    background-color: #1976D2 !important;
+    
+}
+.nav-link{
+    color: #fff !important;
+
+}
+.hi{
+    margin-right: 400px !important;
+}
+
+.card1,.card2,.card3{
+    
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px grey;
+    
+    
+
+}
+.fa-truck,.fa-headphones,.fa-star,h3{
+    margin-right: 10px; 
+    color:#1976D2 ;
+}
+.mainCard{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.newArrivals{
+    margin-top: 30px;
+    
+}
+.newArrivals > h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px grey;
+    margin-bottom: 30px;
+    background-color: #1976D2;
+    height: 130px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 72px;
+}
+.card-text{
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 10px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 2px 5px 2px 2px grey;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.btn-primary{
+    width: 100%;
+}
+.submit-button{
+    width: 25%; 
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.rowhead{
+    width: auto;
+    text-align: center;
+    background-color: #1976D2;
+    color: #fff;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px grey;
+}
+
+.yel{
+    color: orange;
+}
+
+.footer > .container-fluid {
+    text-align: right;
+    color: #fff;
+    padding-right: 20px;
+    
+    
+    background-color: #1976D2;
+    height: 100px;
+    padding-top: 15px;
+}
+.con{
+    text-align: left;
+}
+.footer{
+    margin-top: 10px;
+}
+.map{
+    margin-top: 30px;
+    width: 100px;
+}
+
+.address{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.col > p {
+    text-align: justify;
+    
+}
+.col > p::first-letter {
+    color: #1976D2;
+    font-size: 400% !important;
+    font-weight: bold;
+
+}
+.btn-outline-secondary{
+    color: #fff;
+    border: 2px solid red;
+    font-weight: bold;
+}
+.searchbar {
+    width: 900px !important;
+    
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
